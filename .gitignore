@@ -361,3 +361,15 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Sensitive (no subir cadenas de conexión reales)
+appsettings.Development.json
+secrets.json
+
+# Build output adicional
+*.dll
+*.exe
